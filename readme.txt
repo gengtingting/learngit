@@ -1,7 +1,0 @@
-博客园,小坦克
-博客园,Fish
-博客园,Fiddler
-博客园,HTTP
-
-
-获取用户的基本信息接口请求地址:http://yapi.yilianfy.com/index.php?key=e74dadfe3ac5262d28e196809eaec395&c=member&m=getMember参数：uid //用户的UID 整形 必填 POST/GET请求返回数据说明：encrypt_key //加密的一个key 这个主要是为了判断不能2个账号同时登陆的。。。。，成功返回1，失败返回0 {    "status": 1,    "message": "success",    "info": {        "uid": "MDAwMDAwMDAwMIKohWR-tm2j",        "username": "曹杰",        "expire": "不过期",        "phone": "15876392525",        "score": "20",        "money": "0.00",        "uname": "曹杰",        "sex": "0",        "sign_days": "0",        "alipay_name": null,        "alipay_account": null,        "registration_id": "",        "pic": "http://wx.qlogo.cn/mmopen/VlW4UIBoSLD8Ns1oibHsKyOzKfJI7N02QgLncnUWM9whmkYkxVHDKM7TJzXUhaKPJnPVo0OLf4CjhHTqaazgaFsiaibm3xJmvDI/0?t=1442892936",        "encrypt_key": "58692e4f9fe939c728afa3cb93745600",        "invitation": "ylfy4455" ,         deposit_money:100 , 总共提现的金额    }}d//加密的uid 很多地方都使用username //用户名（）expire//过期日期phone//手机号码score//积分money //金钱 金币uname//昵称sex 性别0:保密 1:男 2：女sign_days//签到天数连续alipay_name//支付宝姓名alipay_account//支付宝账号pic//图片地址encrypt_key//加密的一个key 主要是为判断 ，是否只有一个用户登录的show_username//客户端显示的一个用户名 （到时候显示的时候调用这个字段说明）invitation //邀请码deposit_money  提现的总金额
